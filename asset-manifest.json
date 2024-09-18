@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hoopercode/futurelearn/static/css/main.e4ca65a7.css",
+    "main.js": "/hoopercode/futurelearn/static/js/main.f6d8696f.js",
+    "static/js/453.89b813df.chunk.js": "/hoopercode/futurelearn/static/js/453.89b813df.chunk.js",
+    "static/media/JonoProfile.png": "/hoopercode/futurelearn/static/media/JonoProfile.9508aecca4bbf28c19c3.png",
+    "static/media/RobProfile.png": "/hoopercode/futurelearn/static/media/RobProfile.1e4b085d85549d232d7e.png",
+    "index.html": "/hoopercode/futurelearn/index.html",
+    "main.e4ca65a7.css.map": "/hoopercode/futurelearn/static/css/main.e4ca65a7.css.map",
+    "main.f6d8696f.js.map": "/hoopercode/futurelearn/static/js/main.f6d8696f.js.map",
+    "453.89b813df.chunk.js.map": "/hoopercode/futurelearn/static/js/453.89b813df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4ca65a7.css",
+    "static/js/main.f6d8696f.js"
+  ]
+}
