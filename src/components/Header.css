@@ -1,0 +1,46 @@
+.header {
+    background-color: #0a192f;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    align-items: center;
+    height: 100vh; /* Use full viewport height */
+    box-sizing: border-box; /* Ensure padding is included within the height */
+  }
+  
+  .header-content img {
+    width: 150px;  /* Adjust the logo size */
+    margin-bottom: 20px;
+  }
+  
+  .header-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #64ffda;
+  }
+  
+  .header-content p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    background-color: #64ffda;
+    border: none;
+    color: #0a192f;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #52d1b1;
+  }
+  

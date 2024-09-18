@@ -1,0 +1,52 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Add padding for mobile devices */
+  }
+  
+  .overlay-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%; /* Ensure the content takes up the full width of smaller screens */
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .overlay-content {
+      max-width: 90%; /* Reduce max width for better fit on mobile screens */
+      padding: 20px; /* Reduce padding for smaller screens */
+    }
+  
+    .overlay-content h2 {
+      font-size: 1.5rem; /* Reduce font size for mobile */
+    }
+  
+    .overlay-content p {
+      font-size: 1rem; /* Adjust text size for readability */
+    }
+  }
+  
+  .close-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #64ffda;
+    border: none;
+    color: #0a192f;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .close-btn:hover {
+    background-color: #52d1b1;
+  }
+  

@@ -1,0 +1,78 @@
+.about-page {
+    padding: 100px 20px; /* Add more vertical spacing */
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .about-page h1 {
+    font-size: 2.5rem; /* Same as What We Offer */
+    font-weight: 700; /* Make it bold */
+    color: #0a192f; /* Darker color for emphasis */
+    margin-bottom: 40px; /* Add more space below the heading */
+    text-transform: uppercase; /* Optional: Make the text uppercase */
+    letter-spacing: 1.5px; /* Spacing between letters */
+    border-bottom: 3px solid #64ffda; /* Add the underline border */
+    display: inline-block;
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .profile {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 300px;
+    text-align: center;
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .profile h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #0a192f;
+  }
+  
+  .profile p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .profile {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .profile h2 {
+      font-size: 1.3rem;
+    }
+  
+    .profile p {
+      font-size: 0.9rem;
+    }
+  }
+  
