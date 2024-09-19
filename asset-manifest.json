@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/futurelearn/static/css/main.f261347d.css",
+    "main.css": "/futurelearn/static/css/main.c2da47cb.css",
     "main.js": "/futurelearn/static/js/main.f129cca4.js",
     "static/js/453.89b813df.chunk.js": "/futurelearn/static/js/453.89b813df.chunk.js",
     "static/media/JonoProfile.png": "/futurelearn/static/media/JonoProfile.9508aecca4bbf28c19c3.png",
     "static/media/RobProfile.png": "/futurelearn/static/media/RobProfile.1e4b085d85549d232d7e.png",
     "static/media/logo-no-background.png": "/futurelearn/static/media/logo-no-background.881a99df91075aa5c508.png",
     "index.html": "/futurelearn/index.html",
-    "main.f261347d.css.map": "/futurelearn/static/css/main.f261347d.css.map",
+    "main.c2da47cb.css.map": "/futurelearn/static/css/main.c2da47cb.css.map",
     "main.f129cca4.js.map": "/futurelearn/static/js/main.f129cca4.js.map",
     "453.89b813df.chunk.js.map": "/futurelearn/static/js/453.89b813df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f261347d.css",
+    "static/css/main.c2da47cb.css",
     "static/js/main.f129cca4.js"
   ]
 }
